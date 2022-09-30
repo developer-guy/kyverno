@@ -2327,6 +2327,8 @@ entries:
   - annotations:
       artifacthub.io/changes: |
         - kind: added
+          description: Add possibility to manually set kyvernoVersion and avoid autodetection
+        - kind: added
           description: Support for artifacthub.io/changes annotation
         - kind: fixed
           description: Fix Kyverno version check when image tag contains registry port number
@@ -2342,9 +2344,9 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: v1.7.3
-    created: "2022-09-01T13:03:30.5467022Z"
+    created: "2022-09-30T19:10:21.032827838Z"
     description: Kubernetes Pod Security Standards implemented as Kyverno policies
-    digest: e1200d40a022bbb80b53e99c1d26d572f9ccf9f24e5c02e19a5effdf32131fb4
+    digest: bfdb835906d8172417651c6a4125df32104c0b0102d65e5e35807f1f334365e2
     home: https://kyverno.io/policies/
     icon: https://github.com/kyverno/kyverno/raw/main/img/logo.png
     keywords:
@@ -3333,4 +3335,4 @@ entries:
     urls:
     - https://kyverno.github.io/kyverno/kyverno-policies-v2.1.0.tgz
     version: v2.1.0
-generated: "2022-09-01T13:03:30.545662899Z"
+generated: "2022-09-30T19:10:21.030787108Z"
