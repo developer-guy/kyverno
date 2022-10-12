@@ -14,3 +14,4 @@ kubectl-kyverno
 /config/.helm
 /config/.release
 .dist
+/tmp
